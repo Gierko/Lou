@@ -48,8 +48,8 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
-def try_me():
-    print(colored("My name is Loupiot",'yellow'))
+def try_me(word):
+    return f"My name is {word}"
 
 
 if __name__ == '__main__':
