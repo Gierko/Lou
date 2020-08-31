@@ -1,0 +1,3 @@
+graft Lou
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  Lou/jupy *
